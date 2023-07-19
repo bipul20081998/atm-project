@@ -23,7 +23,7 @@ int withdraw_money(double *amount)
     printf("Enter amount to withdraw: ");
     scanf("%lf", &withdrewal_amount);
     if(withdrewal_amount < 0) {
-        printf("Invalid amount...");
+        printf("Invalid amount...\n\n");
     }
     else if((*amount) > withdrewal_amount){
         printf("Please collect your cash...\n\n");
