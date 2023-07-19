@@ -103,7 +103,7 @@ int main()
     printf("User Name: ");
     scanf("%s",uname);
 
-    printf("passward: ");
+    printf("Pin: ");
     scanf("%s",passward);
     system("clear");
  
